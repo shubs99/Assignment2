@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+  background-image: url(img/bg.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  color: aliceblue;
+}
+
+.heading{
+    text-align: center;
+    width: 100%;
+    margin: auto;
+    margin-top: 90px;
+    color: black;
+   
+}
+
+#head{
+    margin-bottom: 20px;
+}
+
+
+form{
+    background-color: rgba(0,0,0,0.7);
+    padding-top: 34px;
+    align-items: center;
+    justify-content: center;
+    width: 58%;
+    margin: auto;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding-bottom: 25px;
+}
+
+.content1{
+    display: flex;
+    width: 90%;
+    margin: 30px ;
+  
+}
+
+form .box{
+    width: 60%;
+    height: 0.8cm;
+    margin: auto;
+    position: relative;
+    bottom: 10px;
+    border: 0px;
+    border-radius: 5px;
+    
+}
+
+.content1 select{
+    position: relative;
+    height: 0.8cm ;
+    width: 60%;
+    margin: 1px;
+    bottom: 10px;
+    border: 0px;
+    border-radius: 5px;
+    top: 1px;
+}
+
+
+
+
+.btn{
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+button{
+    width: 180px;
+    height: 0.8cm;
+    position: relative;
+    border: none;
+    background-color: green;
+    color: bisque;
+    margin-top: 20px;
+    user-select: none;
+    cursor: pointer;
+}
+
+.name{
+    width: 70%;
+}
+
+.part2{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 53%;
+}
+
+.part7{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    text-align: left;
+    width: 56%;
+    
+}
+ .empty{
+    height: 20px;
+ }
