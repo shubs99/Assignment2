@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <div class="heading">
+     <h1 id ="head">Survey Form</h1>
+     <h2 id ="subheading">Let us know how we can improve freecodecamp</h2>
+   </div>
+   <form>
+      <div class="content1">
+        <label class="name">* Name </label><br><br>
+        <input type="text" name="name" placeholder="Enter your name" class="box"><br><br>
+      </div>
+   
+      <div class="content1">
+        <label class="name" >* E-Mail</label> <br><br>
+        <input type="email" name="email" placeholder="Enter your e-mail" class="box"><br><br>
+      </div>
+      <div class="content1">
+        <label class="name">* Age</label> <br><br>
+        <input type="number" name="age" placeholder="Enter your age" class="box"><br><br>
+      </div>
+        
+      
+      <div class="content1">
+        <label class="name">Which option best describes your current role?</label> <br><br>
+        <select>
+        <option name="select your Role">Select your role</option>
+        <option value="Student">Student</option>
+        <option value="Full time job">Full time job</option>
+        <option value="Full time learner">Full time learner</option>
+        <option vale="Prefer not to say">Prefer not to say</option>
+        <option value="others">others</option>
+        </select>
+      </div>
+      
+
+      <div class="content1">
+        <div class="part1">
+        <p class="name">* How likely is that you would recommend freeCodeCamp to a friend?</p>
+       </div>
+
+          <div class="part7">
+            <div class="part3">
+              <input type="radio" name="radio" class="larger">&nbspDefinitely 
+            </div>
+            <div class="part4">
+              <input type="radio" name="radio" class="larger">&nbspMaybe 
+            </div>
+            <div class="part5">
+              <input type="radio" name="radio" class="larger">&nbspNot sure
+            </div>
+          </div>
+     
+       </div>
+
+      <div class="content1">
+        <label class="name">What do you like most in freeCodeCamp ?</label>
+        <select>
+        <option name="Coding Courses">Coding Courses</option>
+        <option value="Live Streams">Live Streams</option>
+        <option value="Unboxing Vedios">Unboxing Vedios</option>
+        <option vale="Live Workshops">Live Workshops</option>
+        <option value="Doubt Solving Sessions">Doubt Solving Sessions</option>
+        </select>
+      </div>
+     
+      <div class="content1">
+        <div class="part1">
+        <p class="name">Things that should be improved in the future?(check all that apply)</p>
+       </div>
+
+          <div class="part2">
+            <div class="part3">
+              <input type="checkbox" name="checkbox" class="larger">&nbspFront-End Projects
+            </div>
+            <div class="part4">
+              <input type="checkbox" name="checkbox" class="larger">&nbspBack-End Projects 
+            </div>
+            <div class="part5">
+              <input type="checkbox" name="checkbox" class="larger">&nbspData Visualialization
+            </div>
+          </div>
+     
+       </div>
+     
+    <div class="btn">
+    <button><h3>Submit</h3></button>
+  </div>
+    
+   </form>
+   <div class="empty"></div>
+</body>
+</html>
